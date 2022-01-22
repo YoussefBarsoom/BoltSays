@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>JQuery</title>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body class="body">
+   
+        <button class="startButton" >START GAME</button>
+
+    <!-- <div class="title">PRESS A TO START</div> -->
+    <div class="gameBody">
+    <div class="gameWrapper">
+    <div id="gameContainer" class="container">
+    </div>
+    </div>
+    <div class="wrapper">
+    <div class="scoreWrapper">
+        <div class="score">Score</div>
+        <div class="total" >0</div>
+    </div>
+</div>
+
+    <div class="endGame">
+        <div class="tryAgainWrapper">
+            <div class="textWrapper">
+        <div class="scoreTitleStyle">Score</div>
+        <div class="scoreStyle">69</div>
+        <div class="percStyle">42.69% percentile</div>
+    </div>
+        <button class="tryAgainButton" >Try Again</button>
+        </div>
+        <div class="line-chart">
+            <div class="aspect-ratio">
+              <canvas id="chart"></canvas>
+            </div>
+          </div>
+
+
+    </div>
+</div>
+<img src="boltCorp.png" class="logoStyle">
+    <div class="background">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="game.js"></script>
+  
+</body>
+</html>
